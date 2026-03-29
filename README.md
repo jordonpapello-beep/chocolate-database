@@ -6,6 +6,35 @@
 ### Project Order:
 This is the order this project should be viewed in:
 
+* `Project Images/`
+	* `Database Structure.png`
+ 	* `Database Column Info.pdf`
+* `Data/CSV Files to Import to SQL/` (Raw Data)
+	*  `sales(1).csv`
+ 	*  `sales(2).csv`
+    *  `products.csv`
+    *  `customers.csv`
+    *  `stores.csv`
+* `SQL Files/`
+	* `RetailDBSM.sql`
+* `Data/Exported from SQL/` (Cleaned Data)
+	* `sales.csv`
+	* `products.csv`
+ 	* `customers.csv`
+  	* `stores.csv`
+* `SQL Files/`
+	* `main.sql`
+* `Views/`
+	* `Sales Views/`
+ 	* `Product Views/`
+  	* `Customer Views/`
+  	* `Store Views/` 
+* `Stored Procedures/`
+	* `get_sales_by_date('2023-06-21', '2023-09-23').csv`
+ 	* ` get_product_by_category('Milk').csv`
+  	* `get_top_non_loyal_customers_by_year(299.99, 2024).csv`
+  	* `get_ranked_products_per_store(3).csv` 
+
 
 ---
 ### Project Description:
