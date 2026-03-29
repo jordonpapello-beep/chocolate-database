@@ -1,0 +1,201 @@
+store_id,store_name,product_name,total_sold,rank_in_store
+3,"Chocolate Store 3","Lindt Milk Chocolate 60% (50g)",142,1
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 50% (100g)",114,2
+3,"Chocolate Store 3","Godiva Truffle Chocolate 70% (100g) [ID:159]",108,3
+3,"Chocolate Store 3","Cadbury Milk Chocolate 50% (100g)",107,4
+3,"Chocolate Store 3","Godiva Truffle Chocolate 70% (100g) [ID:191]",106,5
+3,"Chocolate Store 3","Godiva Milk Chocolate 70% (120g)",106,5
+3,"Chocolate Store 3","Godiva Truffle Chocolate 70% (200g)",106,5
+3,"Chocolate Store 3","Hershey Milk Chocolate 50% (50g)",105,8
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 50% (200g)",105,8
+3,"Chocolate Store 3","Lindt Dark Chocolate 50% (120g)",104,10
+3,"Chocolate Store 3","Lindt Dark Chocolate 60% (50g)",104,10
+3,"Chocolate Store 3","Godiva Dark Chocolate 70% (200g)",103,12
+3,"Chocolate Store 3","Hershey Milk Chocolate 70% (100g)",103,12
+3,"Chocolate Store 3","Ferrero Praline Chocolate 70% (100g)",102,14
+3,"Chocolate Store 3","Cadbury Truffle Chocolate 80% (120g)",101,15
+3,"Chocolate Store 3","Hershey Milk Chocolate 50% (100g)",100,16
+3,"Chocolate Store 3","Godiva Truffle Chocolate 80% (100g)",100,16
+3,"Chocolate Store 3","Cadbury White Chocolate 90% (80g)",98,18
+3,"Chocolate Store 3","Hershey Milk Chocolate 70% (200g)",96,19
+3,"Chocolate Store 3","Hershey Milk Chocolate 90% (50g)",96,19
+3,"Chocolate Store 3","Mars Dark Chocolate 50% (50g) [ID:117]",95,21
+3,"Chocolate Store 3","Lindt Praline Chocolate 70% (200g)",95,21
+3,"Chocolate Store 3","Ferrero Praline Chocolate 50% (120g)",94,23
+3,"Chocolate Store 3","Godiva White Chocolate 70% (50g)",93,24
+3,"Chocolate Store 3","Ferrero Praline Chocolate 50% (50g)",93,24
+3,"Chocolate Store 3","Ferrero Praline Chocolate 90% (80g)",93,24
+3,"Chocolate Store 3","Ferrero Dark Chocolate 90% (80g)",93,24
+3,"Chocolate Store 3","Ferrero Praline Chocolate 50% (100g) [ID:177]",93,24
+3,"Chocolate Store 3","Lindt Truffle Chocolate 90% (50g)",93,24
+3,"Chocolate Store 3","Lindt Truffle Chocolate 60% (50g)",91,30
+3,"Chocolate Store 3","Mars Milk Chocolate 80% (120g)",91,30
+3,"Chocolate Store 3","Cadbury Milk Chocolate 60% (50g)",91,30
+3,"Chocolate Store 3","Hershey White Chocolate 80% (50g)",90,33
+3,"Chocolate Store 3","Ferrero Dark Chocolate 50% (50g)",89,34
+3,"Chocolate Store 3","Godiva Praline Chocolate 80% (120g)",88,35
+3,"Chocolate Store 3","Mars Milk Chocolate 90% (80g)",88,35
+3,"Chocolate Store 3","Cadbury Milk Chocolate 70% (100g)",87,37
+3,"Chocolate Store 3","Godiva Truffle Chocolate 90% (200g)",87,37
+3,"Chocolate Store 3","Lindt White Chocolate 70% (200g)",86,39
+3,"Chocolate Store 3","Cadbury Dark Chocolate 60% (200g) [ID:156]",86,39
+3,"Chocolate Store 3","Ferrero Praline Chocolate 60% (50g) [ID:50]",86,39
+3,"Chocolate Store 3","Lindt Truffle Chocolate 80% (100g)",86,39
+3,"Chocolate Store 3","Godiva White Chocolate 90% (100g)",85,43
+3,"Chocolate Store 3","Ferrero White Chocolate 70% (50g)",85,43
+3,"Chocolate Store 3","Lindt Truffle Chocolate 80% (200g)",84,45
+3,"Chocolate Store 3","Cadbury White Chocolate 90% (120g) [ID:195]",84,45
+3,"Chocolate Store 3","Cadbury Milk Chocolate 70% (80g)",84,45
+3,"Chocolate Store 3","Hershey Milk Chocolate 90% (80g)",84,45
+3,"Chocolate Store 3","Hershey Truffle Chocolate 70% (120g)",84,45
+3,"Chocolate Store 3","Ferrero White Chocolate 90% (100g)",83,50
+3,"Chocolate Store 3","Ferrero Milk Chocolate 70% (100g)",82,51
+3,"Chocolate Store 3","Godiva Milk Chocolate 80% (50g) [ID:97]",82,51
+3,"Chocolate Store 3","Godiva Milk Chocolate 80% (50g) [ID:45]",82,51
+3,"Chocolate Store 3","Lindt Praline Chocolate 90% (120g) [ID:25]",82,51
+3,"Chocolate Store 3","Lindt Truffle Chocolate 80% (120g)",82,51
+3,"Chocolate Store 3","Cadbury Dark Chocolate 80% (200g)",82,51
+3,"Chocolate Store 3","Mars Dark Chocolate 80% (50g)",82,51
+3,"Chocolate Store 3","Godiva Praline Chocolate 70% (50g)",81,58
+3,"Chocolate Store 3","Lindt Milk Chocolate 60% (80g)",81,58
+3,"Chocolate Store 3","Mars White Chocolate 50% (120g)",81,58
+3,"Chocolate Store 3","Godiva White Chocolate 80% (80g)",81,58
+3,"Chocolate Store 3","Cadbury White Chocolate 50% (100g)",81,58
+3,"Chocolate Store 3","Godiva Truffle Chocolate 60% (100g)",81,58
+3,"Chocolate Store 3","Ferrero White Chocolate 80% (80g) [ID:66]",81,58
+3,"Chocolate Store 3","Cadbury White Chocolate 70% (50g)",80,65
+3,"Chocolate Store 3","Lindt White Chocolate 70% (120g)",80,65
+3,"Chocolate Store 3","Ferrero Dark Chocolate 60% (50g)",80,65
+3,"Chocolate Store 3","Ferrero Milk Chocolate 60% (100g)",80,65
+3,"Chocolate Store 3","Lindt Milk Chocolate 80% (200g)",80,65
+3,"Chocolate Store 3","Cadbury White Chocolate 90% (120g) [ID:69]",80,65
+3,"Chocolate Store 3","Godiva Truffle Chocolate 80% (200g)",80,65
+3,"Chocolate Store 3","Lindt Dark Chocolate 70% (50g)",79,72
+3,"Chocolate Store 3","Ferrero Dark Chocolate 70% (100g)",79,72
+3,"Chocolate Store 3","Mars White Chocolate 60% (100g)",79,72
+3,"Chocolate Store 3","Lindt Praline Chocolate 90% (100g)",79,72
+3,"Chocolate Store 3","Mars Dark Chocolate 70% (50g)",79,72
+3,"Chocolate Store 3","Hershey Milk Chocolate 70% (50g)",79,72
+3,"Chocolate Store 3","Godiva Praline Chocolate 50% (120g)",79,72
+3,"Chocolate Store 3","Ferrero White Chocolate 50% (80g)",79,72
+3,"Chocolate Store 3","Cadbury White Chocolate 50% (200g)",79,72
+3,"Chocolate Store 3","Godiva Praline Chocolate 50% (80g)",78,81
+3,"Chocolate Store 3","Mars Praline Chocolate 80% (120g)",78,81
+3,"Chocolate Store 3","Godiva Praline Chocolate 70% (200g)",78,81
+3,"Chocolate Store 3","Cadbury Truffle Chocolate 90% (80g) [ID:57]",78,81
+3,"Chocolate Store 3","Mars Dark Chocolate 90% (200g)",78,81
+3,"Chocolate Store 3","Cadbury Dark Chocolate 50% (50g) [ID:21]",77,86
+3,"Chocolate Store 3","Godiva Truffle Chocolate 50% (50g)",77,86
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 50% (80g)",77,86
+3,"Chocolate Store 3","Lindt Truffle Chocolate 90% (200g)",77,86
+3,"Chocolate Store 3","Ferrero Milk Chocolate 70% (200g)",77,86
+3,"Chocolate Store 3","Hershey Truffle Chocolate 90% (120g)",77,86
+3,"Chocolate Store 3","Lindt Milk Chocolate 60% (100g) [ID:29]",77,86
+3,"Chocolate Store 3","Cadbury Dark Chocolate 60% (100g)",77,86
+3,"Chocolate Store 3","Hershey Truffle Chocolate 80% (50g)",76,94
+3,"Chocolate Store 3","Godiva White Chocolate 60% (100g)",76,94
+3,"Chocolate Store 3","Mars Dark Chocolate 90% (80g)",76,94
+3,"Chocolate Store 3","Hershey Praline Chocolate 50% (200g)",75,97
+3,"Chocolate Store 3","Hershey Dark Chocolate 90% (80g)",75,97
+3,"Chocolate Store 3","Godiva Milk Chocolate 50% (100g)",75,97
+3,"Chocolate Store 3","Hershey Praline Chocolate 90% (100g)",75,97
+3,"Chocolate Store 3","Ferrero Dark Chocolate 50% (200g) [ID:64]",75,97
+3,"Chocolate Store 3","Lindt Dark Chocolate 80% (100g)",74,102
+3,"Chocolate Store 3","Ferrero White Chocolate 80% (80g) [ID:65]",74,102
+3,"Chocolate Store 3","Cadbury Dark Chocolate 90% (100g)",74,102
+3,"Chocolate Store 3","Hershey White Chocolate 50% (200g)",74,102
+3,"Chocolate Store 3","Hershey Praline Chocolate 80% (200g)",74,102
+3,"Chocolate Store 3","Mars Praline Chocolate 70% (50g)",74,102
+3,"Chocolate Store 3","Ferrero Milk Chocolate 50% (200g)",73,108
+3,"Chocolate Store 3","Mars White Chocolate 60% (200g)",73,108
+3,"Chocolate Store 3","Mars Truffle Chocolate 80% (200g)",73,108
+3,"Chocolate Store 3","Cadbury Truffle Chocolate 90% (80g) [ID:129]",72,111
+3,"Chocolate Store 3","Hershey White Chocolate 50% (120g)",71,112
+3,"Chocolate Store 3","Lindt Praline Chocolate 90% (120g) [ID:30]",71,112
+3,"Chocolate Store 3","Hershey White Chocolate 90% (120g)",70,114
+3,"Chocolate Store 3","Mars Dark Chocolate 90% (50g)",70,114
+3,"Chocolate Store 3","Mars Milk Chocolate 90% (100g)",70,114
+3,"Chocolate Store 3","Lindt Milk Chocolate 90% (100g)",69,117
+3,"Chocolate Store 3","Cadbury Dark Chocolate 60% (200g) [ID:91]",69,117
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 90% (50g)",69,117
+3,"Chocolate Store 3","Cadbury Dark Chocolate 70% (100g) [ID:23]",69,117
+3,"Chocolate Store 3","Ferrero Praline Chocolate 60% (120g)",69,117
+3,"Chocolate Store 3","Mars White Chocolate 50% (50g)",68,122
+3,"Chocolate Store 3","Hershey Dark Chocolate 80% (80g)",68,122
+3,"Chocolate Store 3","Mars White Chocolate 60% (50g) [ID:121]",68,122
+3,"Chocolate Store 3","Hershey White Chocolate 70% (200g)",68,122
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 80% (120g)",68,122
+3,"Chocolate Store 3","Cadbury Truffle Chocolate 70% (100g)",68,122
+3,"Chocolate Store 3","Ferrero White Chocolate 50% (100g)",67,128
+3,"Chocolate Store 3","Cadbury Praline Chocolate 70% (100g)",67,128
+3,"Chocolate Store 3","Cadbury Praline Chocolate 70% (120g)",66,130
+3,"Chocolate Store 3","Ferrero Praline Chocolate 50% (80g)",66,130
+3,"Chocolate Store 3","Lindt Dark Chocolate 90% (100g)",66,130
+3,"Chocolate Store 3","Cadbury White Chocolate 80% (50g)",66,130
+3,"Chocolate Store 3","Lindt Truffle Chocolate 50% (200g)",66,130
+3,"Chocolate Store 3","Ferrero Praline Chocolate 50% (100g) [ID:103]",65,135
+3,"Chocolate Store 3","Mars Truffle Chocolate 50% (200g)",65,135
+3,"Chocolate Store 3","Hershey Truffle Chocolate 60% (120g)",64,137
+3,"Chocolate Store 3","Ferrero Praline Chocolate 70% (200g)",64,137
+3,"Chocolate Store 3","Hershey White Chocolate 50% (100g)",64,137
+3,"Chocolate Store 3","Mars White Chocolate 60% (80g)",64,137
+3,"Chocolate Store 3","Mars Truffle Chocolate 80% (50g)",64,137
+3,"Chocolate Store 3","Ferrero Dark Chocolate 50% (200g) [ID:94]",64,137
+3,"Chocolate Store 3","Hershey Truffle Chocolate 50% (100g)",64,137
+3,"Chocolate Store 3","Lindt White Chocolate 90% (100g)",63,144
+3,"Chocolate Store 3","Mars White Chocolate 80% (120g)",63,144
+3,"Chocolate Store 3","Cadbury Praline Chocolate 50% (50g)",62,146
+3,"Chocolate Store 3","Lindt Truffle Chocolate 80% (50g)",62,146
+3,"Chocolate Store 3","Cadbury Dark Chocolate 60% (120g)",62,146
+3,"Chocolate Store 3","Lindt Dark Chocolate 60% (100g)",62,146
+3,"Chocolate Store 3","Godiva White Chocolate 70% (120g)",62,146
+3,"Chocolate Store 3","Cadbury Praline Chocolate 50% (120g)",62,146
+3,"Chocolate Store 3","Godiva Dark Chocolate 90% (120g)",62,146
+3,"Chocolate Store 3","Cadbury Truffle Chocolate 70% (200g)",62,146
+3,"Chocolate Store 3","Cadbury Milk Chocolate 90% (80g)",61,154
+3,"Chocolate Store 3","Mars Dark Chocolate 60% (80g)",61,154
+3,"Chocolate Store 3","Ferrero Dark Chocolate 70% (50g)",61,154
+3,"Chocolate Store 3","Mars White Chocolate 60% (50g) [ID:76]",61,154
+3,"Chocolate Store 3","Lindt Dark Chocolate 80% (120g)",61,154
+3,"Chocolate Store 3","Cadbury Dark Chocolate 50% (120g)",61,154
+3,"Chocolate Store 3","Cadbury Praline Chocolate 90% (50g)",61,154
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 50% (50g)",60,161
+3,"Chocolate Store 3","Mars Praline Chocolate 90% (80g)",60,161
+3,"Chocolate Store 3","Cadbury White Chocolate 70% (100g)",60,161
+3,"Chocolate Store 3","Lindt Milk Chocolate 60% (100g) [ID:55]",60,161
+3,"Chocolate Store 3","Cadbury Praline Chocolate 80% (100g)",59,165
+3,"Chocolate Store 3","Mars Dark Chocolate 50% (50g) [ID:171]",59,165
+3,"Chocolate Store 3","Godiva Dark Chocolate 60% (50g)",58,167
+3,"Chocolate Store 3","Mars Milk Chocolate 70% (120g)",57,168
+3,"Chocolate Store 3","Mars Dark Chocolate 60% (120g)",57,168
+3,"Chocolate Store 3","Lindt Milk Chocolate 70% (200g) [ID:190]",57,168
+3,"Chocolate Store 3","Lindt Dark Chocolate 50% (50g)",56,171
+3,"Chocolate Store 3","Mars Milk Chocolate 80% (100g)",55,172
+3,"Chocolate Store 3","Mars Milk Chocolate 50% (80g) [ID:73]",55,172
+3,"Chocolate Store 3","Ferrero Milk Chocolate 60% (50g)",55,172
+3,"Chocolate Store 3","Lindt Milk Chocolate 80% (80g)",54,175
+3,"Chocolate Store 3","Ferrero Praline Chocolate 60% (50g) [ID:161]",54,175
+3,"Chocolate Store 3","Hershey Praline Chocolate 50% (80g)",54,175
+3,"Chocolate Store 3","Cadbury Dark Chocolate 50% (80g)",54,175
+3,"Chocolate Store 3","Hershey Praline Chocolate 70% (200g)",54,175
+3,"Chocolate Store 3","Lindt White Chocolate 80% (120g)",53,180
+3,"Chocolate Store 3","Lindt Dark Chocolate 50% (200g)",53,180
+3,"Chocolate Store 3","Hershey Dark Chocolate 70% (80g)",53,180
+3,"Chocolate Store 3","Godiva White Chocolate 80% (50g)",51,183
+3,"Chocolate Store 3","Cadbury Dark Chocolate 70% (100g) [ID:2]",51,183
+3,"Chocolate Store 3","Mars Truffle Chocolate 70% (200g)",51,183
+3,"Chocolate Store 3","Lindt Milk Chocolate 50% (50g)",50,186
+3,"Chocolate Store 3","Hershey Truffle Chocolate 80% (80g)",50,186
+3,"Chocolate Store 3","Cadbury Truffle Chocolate 90% (100g)",49,188
+3,"Chocolate Store 3","Lindt Milk Chocolate 70% (200g) [ID:152]",49,188
+3,"Chocolate Store 3","Godiva White Chocolate 80% (200g)",48,190
+3,"Chocolate Store 3","Mars Milk Chocolate 50% (80g) [ID:4]",48,190
+3,"Chocolate Store 3","Godiva White Chocolate 50% (80g)",46,192
+3,"Chocolate Store 3","Cadbury Dark Chocolate 50% (50g) [ID:102]",46,192
+3,"Chocolate Store 3","Ferrero White Chocolate 90% (200g)",46,192
+3,"Chocolate Store 3","Godiva White Chocolate 90% (50g)",45,195
+3,"Chocolate Store 3","Hershey Dark Chocolate 50% (120g)",45,195
+3,"Chocolate Store 3","Mars Truffle Chocolate 80% (120g)",45,195
+3,"Chocolate Store 3","Ferrero Truffle Chocolate 90% (100g)",41,198
+3,"Chocolate Store 3","Mars Praline Chocolate 60% (120g)",40,199
+3,"Chocolate Store 3","Godiva Dark Chocolate 50% (100g)",40,199

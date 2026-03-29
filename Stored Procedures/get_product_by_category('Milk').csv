@@ -1,0 +1,39 @@
+id,product_name,product_brand,product_category,units_sold,total_revenue,avg_transaction_value,total_profit,avg_profits,profit_margin_percent
+154,"Ferrero Milk Chocolate 70% (200g)",Ferrero,Milk,7652,64990.87,25.45,26010.48,10.18,40.02
+93,"Cadbury Milk Chocolate 90% (80g)",Cadbury,Milk,7539,64545.78,25.86,26004.07,10.42,40.29
+73,"Mars Milk Chocolate 50% (80g) [ID:73]",Mars,Milk,7670,65299.15,25.67,25961.26,10.20,39.76
+51,"Lindt Milk Chocolate 80% (200g)",Lindt,Milk,7602,64493.75,25.66,25880.51,10.30,40.13
+133,"Lindt Milk Chocolate 90% (100g)",Lindt,Milk,7486,64022.03,25.37,25806.19,10.22,40.31
+10,"Hershey Milk Chocolate 70% (50g)",Hershey,Milk,7609,64487.65,25.48,25792.46,10.19,40.00
+49,"Ferrero Milk Chocolate 60% (50g)",Ferrero,Milk,7301,63688.83,26.37,25616.42,10.61,40.22
+6,"Hershey Milk Chocolate 50% (50g)",Hershey,Milk,7472,63897.75,25.66,25614.56,10.29,40.09
+144,"Cadbury Milk Chocolate 60% (50g)",Cadbury,Milk,7396,63762.78,25.90,25582.61,10.39,40.12
+185,"Ferrero Milk Chocolate 70% (100g)",Ferrero,Milk,7450,63885.00,25.61,25546.41,10.24,39.99
+150,"Hershey Milk Chocolate 50% (100g)",Hershey,Milk,7468,63655.16,25.63,25526.06,10.28,40.10
+151,"Hershey Milk Chocolate 70% (200g)",Hershey,Milk,7442,63374.09,25.55,25493.46,10.28,40.23
+24,"Cadbury Milk Chocolate 70% (100g)",Cadbury,Milk,7488,63909.85,25.87,25462.45,10.31,39.84
+55,"Lindt Milk Chocolate 60% (100g) [ID:55]",Lindt,Milk,7479,63471.00,25.46,25401.93,10.19,40.02
+60,"Mars Milk Chocolate 70% (120g)",Mars,Milk,7426,63298.87,25.83,25394.38,10.36,40.12
+189,"Godiva Milk Chocolate 50% (100g)",Godiva,Milk,7473,63401.52,25.61,25386.94,10.25,40.04
+149,"Lindt Milk Chocolate 80% (80g)",Lindt,Milk,7470,63330.82,25.52,25305.99,10.20,39.96
+115,"Hershey Milk Chocolate 90% (50g)",Hershey,Milk,7316,63142.30,25.78,25262.84,10.32,40.01
+4,"Mars Milk Chocolate 50% (80g) [ID:4]",Mars,Milk,7450,63302.20,25.30,25237.09,10.09,39.87
+53,"Ferrero Milk Chocolate 60% (100g)",Ferrero,Milk,7513,62660.47,25.17,25189.98,10.12,40.20
+105,"Mars Milk Chocolate 80% (100g)",Mars,Milk,7392,63136.91,25.29,25188.52,10.09,39.90
+169,"Lindt Milk Chocolate 60% (80g)",Lindt,Milk,7408,63209.69,25.64,25159.57,10.21,39.80
+45,"Godiva Milk Chocolate 80% (50g) [ID:45]",Godiva,Milk,7428,62941.65,25.57,25094.75,10.19,39.87
+106,"Lindt Milk Chocolate 50% (50g)",Lindt,Milk,7322,62789.48,25.90,25064.89,10.34,39.92
+125,"Lindt Milk Chocolate 60% (50g)",Lindt,Milk,7389,62747.28,24.78,25050.38,9.89,39.92
+138,"Mars Milk Chocolate 80% (120g)",Mars,Milk,7269,62619.65,25.57,25042.41,10.23,39.99
+152,"Lindt Milk Chocolate 70% (200g) [ID:152]",Lindt,Milk,7384,62677.44,25.50,24949.66,10.15,39.81
+200,"Cadbury Milk Chocolate 50% (100g)",Cadbury,Milk,7265,62202.09,25.64,24910.75,10.27,40.05
+118,"Godiva Milk Chocolate 70% (120g)",Godiva,Milk,7328,62234.41,25.74,24841.39,10.27,39.92
+29,"Lindt Milk Chocolate 60% (100g) [ID:29]",Lindt,Milk,7343,61541.86,25.05,24670.22,10.04,40.09
+192,"Ferrero Milk Chocolate 50% (200g)",Ferrero,Milk,7159,61341.67,25.67,24653.02,10.32,40.19
+120,"Mars Milk Chocolate 90% (100g)",Mars,Milk,7248,61033.99,24.91,24474.64,9.99,40.10
+114,"Hershey Milk Chocolate 90% (80g)",Hershey,Milk,7206,60976.67,25.39,24471.27,10.19,40.13
+41,"Cadbury Milk Chocolate 70% (80g)",Cadbury,Milk,7211,60883.46,25.21,24423.53,10.11,40.12
+101,"Hershey Milk Chocolate 70% (100g)",Hershey,Milk,7179,60721.39,25.10,24342.91,10.06,40.09
+97,"Godiva Milk Chocolate 80% (50g) [ID:97]",Godiva,Milk,7231,61168.84,24.99,24295.03,9.92,39.72
+166,"Mars Milk Chocolate 90% (80g)",Mars,Milk,7100,60021.33,24.77,24013.35,9.91,40.01
+190,"Lindt Milk Chocolate 70% (200g) [ID:190]",Lindt,Milk,6925,59866.85,25.36,23906.88,10.13,39.93
