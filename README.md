@@ -1,5 +1,7 @@
 # chocolate-database
 * This repository contains the complete database schema and automation logic for a high-volume retail environment (500k+ records). The project focuses on Database Normalization, Automated Financial Calculations, and Strict Data Integrity through the use of advanced SQL features.
+
+* All of the TABLES, VIEWS, and STORED PROCEDURES are available to view as CSV files within this repository. **Most of the data is limited to 1000 rows so as to keep the file size low.** I believe this is long enough to get the general idea of the contents of the TABLES/VIEWS that would have exceeded this LIMIT. The `sales` table has ~500,000 rows of data, and the `customers` table has ~50,000 rows of data.
 ---
 ### Project Order:
 This is the order this project should be viewed in:
