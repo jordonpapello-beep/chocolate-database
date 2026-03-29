@@ -1,0 +1,201 @@
+id,product_name,product_brand,product_category,units_sold,total_revenue,avg_transaction_value,total_profit,avg_profits,profit_margin_percent
+140,"Lindt Dark Chocolate 80% (120g)",Lindt,Dark,7690,65774.93,26.36,26382.31,10.57,40.11
+117,"Mars Dark Chocolate 50% (50g) [ID:117]",Mars,Dark,7644,65735.70,25.59,26310.66,10.24,40.02
+122,"Lindt White Chocolate 70% (120g)",Lindt,White,7587,65471.58,26.17,26284.24,10.51,40.15
+27,"Mars White Chocolate 60% (200g)",Mars,White,7651,65505.89,25.87,26260.57,10.37,40.09
+139,"Godiva Dark Chocolate 50% (100g)",Godiva,Dark,7621,65455.55,25.80,26241.44,10.34,40.09
+8,"Godiva White Chocolate 90% (100g)",Godiva,White,7646,65588.70,25.88,26184.45,10.33,39.92
+187,"Godiva Praline Chocolate 50% (120g)",Godiva,Praline,7700,65107.59,25.32,26162.83,10.18,40.18
+91,"Cadbury Dark Chocolate 60% (200g) [ID:91]",Cadbury,Dark,7696,65672.15,25.78,26159.24,10.27,39.83
+158,"Godiva Truffle Chocolate 80% (100g)",Godiva,Truffle,7699,65028.03,25.21,26117.42,10.13,40.16
+147,"Mars Dark Chocolate 60% (120g)",Mars,Dark,7490,64888.12,26.35,26106.89,10.60,40.23
+100,"Ferrero Truffle Chocolate 50% (200g)",Ferrero,Truffle,7729,65314.04,25.49,26104.87,10.19,39.97
+89,"Godiva Dark Chocolate 70% (200g)",Godiva,Dark,7758,65475.69,25.51,26086.48,10.16,39.84
+191,"Godiva Truffle Chocolate 70% (100g) [ID:191]",Godiva,Truffle,7652,65155.35,25.39,26069.18,10.16,40.01
+137,"Cadbury Praline Chocolate 80% (100g)",Cadbury,Praline,7528,64718.45,25.78,26065.05,10.38,40.27
+17,"Hershey White Chocolate 50% (120g)",Hershey,White,7685,65295.58,25.33,26032.27,10.10,39.87
+154,"Ferrero Milk Chocolate 70% (200g)",Ferrero,Milk,7652,64990.87,25.45,26010.48,10.18,40.02
+93,"Cadbury Milk Chocolate 90% (80g)",Cadbury,Milk,7539,64545.78,25.86,26004.07,10.42,40.29
+130,"Ferrero Praline Chocolate 70% (100g)",Ferrero,Praline,7564,64850.87,25.36,25978.06,10.16,40.06
+26,"Godiva Dark Chocolate 90% (120g)",Godiva,Dark,7716,64917.09,25.42,25962.51,10.17,39.99
+73,"Mars Milk Chocolate 50% (80g) [ID:73]",Mars,Milk,7670,65299.15,25.67,25961.26,10.20,39.76
+104,"Godiva Praline Chocolate 80% (120g)",Godiva,Praline,7670,65025.94,25.74,25946.82,10.27,39.90
+136,"Mars Dark Chocolate 90% (200g)",Mars,Dark,7506,64863.49,25.90,25930.77,10.36,39.98
+108,"Lindt Dark Chocolate 60% (100g)",Lindt,Dark,7474,64220.54,25.87,25923.54,10.44,40.37
+11,"Ferrero Praline Chocolate 90% (80g)",Ferrero,Praline,7654,64915.66,25.75,25921.44,10.28,39.93
+107,"Ferrero Truffle Chocolate 80% (120g)",Ferrero,Truffle,7600,64477.53,25.62,25887.66,10.29,40.15
+51,"Lindt Milk Chocolate 80% (200g)",Lindt,Milk,7602,64493.75,25.66,25880.51,10.30,40.13
+142,"Lindt Praline Chocolate 70% (200g)",Lindt,Praline,7536,64416.36,25.97,25865.34,10.43,40.15
+103,"Ferrero Praline Chocolate 50% (100g) [ID:103]",Ferrero,Praline,7634,64616.67,25.51,25861.49,10.21,40.02
+116,"Ferrero Dark Chocolate 70% (100g)",Ferrero,Dark,7639,64459.57,25.27,25845.09,10.13,40.10
+146,"Mars White Chocolate 50% (50g)",Mars,White,7500,64248.01,25.52,25808.93,10.25,40.17
+133,"Lindt Milk Chocolate 90% (100g)",Lindt,Milk,7486,64022.03,25.37,25806.19,10.22,40.31
+194,"Godiva Truffle Chocolate 90% (200g)",Godiva,Truffle,7506,64513.73,25.34,25799.67,10.13,39.99
+10,"Hershey Milk Chocolate 70% (50g)",Hershey,Milk,7609,64487.65,25.48,25792.46,10.19,40.00
+199,"Hershey Dark Chocolate 70% (80g)",Hershey,Dark,7563,64723.58,25.92,25790.71,10.33,39.85
+123,"Cadbury Praline Chocolate 50% (50g)",Cadbury,Praline,7561,64274.45,25.33,25778.45,10.16,40.11
+193,"Cadbury White Chocolate 90% (80g)",Cadbury,White,7681,64573.86,25.06,25758.26,10.00,39.89
+126,"Cadbury White Chocolate 50% (200g)",Cadbury,White,7615,64431.10,25.42,25750.24,10.16,39.97
+170,"Ferrero Truffle Chocolate 50% (50g)",Ferrero,Truffle,7785,64541.72,25.02,25748.49,9.98,39.89
+179,"Ferrero White Chocolate 90% (100g)",Ferrero,White,7531,64441.01,25.59,25743.22,10.22,39.95
+99,"Lindt White Chocolate 80% (120g)",Lindt,White,7550,63954.55,25.73,25740.84,10.35,40.25
+61,"Lindt Truffle Chocolate 50% (200g)",Lindt,Truffle,7498,63785.61,25.86,25691.65,10.41,40.28
+18,"Ferrero Dark Chocolate 70% (50g)",Ferrero,Dark,7516,63658.72,26.03,25678.81,10.50,40.34
+127,"Mars Praline Chocolate 90% (80g)",Mars,Praline,7608,64094.83,25.29,25670.71,10.13,40.05
+36,"Lindt Dark Chocolate 50% (50g)",Lindt,Dark,7551,63888.19,25.08,25670.70,10.08,40.18
+63,"Lindt Praline Chocolate 90% (100g)",Lindt,Praline,7554,63879.83,25.42,25659.15,10.21,40.17
+90,"Hershey Dark Chocolate 50% (120g)",Hershey,Dark,7479,64235.83,25.69,25647.42,10.26,39.93
+198,"Ferrero Dark Chocolate 90% (80g)",Ferrero,Dark,7603,64222.60,25.60,25639.70,10.22,39.92
+165,"Godiva Praline Chocolate 70% (50g)",Godiva,Praline,7604,64001.92,25.34,25635.70,10.15,40.05
+49,"Ferrero Milk Chocolate 60% (50g)",Ferrero,Milk,7301,63688.83,26.37,25616.42,10.61,40.22
+74,"Hershey Dark Chocolate 90% (80g)",Hershey,Dark,7625,64337.58,25.34,25616.08,10.09,39.82
+6,"Hershey Milk Chocolate 50% (50g)",Hershey,Milk,7472,63897.75,25.66,25614.56,10.29,40.09
+161,"Ferrero Praline Chocolate 60% (50g) [ID:161]",Ferrero,Praline,7562,63817.85,25.29,25613.28,10.15,40.13
+5,"Ferrero White Chocolate 70% (50g)",Ferrero,White,7590,63945.63,25.51,25600.47,10.21,40.03
+12,"Mars Truffle Chocolate 80% (200g)",Mars,Truffle,7578,64206.07,25.38,25598.49,10.12,39.87
+84,"Hershey Truffle Chocolate 50% (100g)",Hershey,Truffle,7582,64300.70,25.72,25598.14,10.24,39.81
+184,"Ferrero Dark Chocolate 60% (50g)",Ferrero,Dark,7419,63865.86,25.52,25590.84,10.22,40.07
+57,"Cadbury Truffle Chocolate 90% (80g) [ID:57]",Cadbury,Truffle,7545,64131.72,25.38,25590.77,10.13,39.90
+132,"Lindt Dark Chocolate 70% (50g)",Lindt,Dark,7465,64133.77,25.93,25589.46,10.35,39.90
+144,"Cadbury Milk Chocolate 60% (50g)",Cadbury,Milk,7396,63762.78,25.90,25582.61,10.39,40.12
+131,"Hershey Dark Chocolate 80% (80g)",Hershey,Dark,7519,64001.62,25.68,25579.16,10.26,39.97
+174,"Lindt Dark Chocolate 90% (100g)",Lindt,Dark,7398,63681.14,25.79,25575.56,10.36,40.16
+124,"Lindt Truffle Chocolate 80% (100g)",Lindt,Truffle,7543,63717.24,25.66,25572.81,10.30,40.13
+113,"Mars Truffle Chocolate 80% (50g)",Mars,Truffle,7488,63526.25,25.66,25559.75,10.32,40.23
+77,"Cadbury Truffle Chocolate 70% (100g)",Cadbury,Truffle,7413,63580.88,25.84,25559.17,10.39,40.20
+78,"Cadbury Dark Chocolate 60% (120g)",Cadbury,Dark,7507,63784.51,25.06,25553.10,10.04,40.06
+185,"Ferrero Milk Chocolate 70% (100g)",Ferrero,Milk,7450,63885.00,25.61,25546.41,10.24,39.99
+164,"Lindt Dark Chocolate 80% (100g)",Lindt,Dark,7532,64044.22,25.24,25541.27,10.07,39.88
+150,"Hershey Milk Chocolate 50% (100g)",Hershey,Milk,7468,63655.16,25.63,25526.06,10.28,40.10
+25,"Lindt Praline Chocolate 90% (120g) [ID:25]",Lindt,Praline,7477,63786.22,26.20,25521.55,10.48,40.01
+58,"Lindt Truffle Chocolate 80% (120g)",Lindt,Truffle,7562,63835.32,25.32,25515.74,10.12,39.97
+151,"Hershey Milk Chocolate 70% (200g)",Hershey,Milk,7442,63374.09,25.55,25493.46,10.28,40.23
+64,"Ferrero Dark Chocolate 50% (200g) [ID:64]",Ferrero,Dark,7445,63622.23,25.56,25489.37,10.24,40.06
+195,"Cadbury White Chocolate 90% (120g) [ID:195]",Cadbury,White,7497,63689.72,25.30,25463.61,10.12,39.98
+24,"Cadbury Milk Chocolate 70% (100g)",Cadbury,Milk,7488,63909.85,25.87,25462.45,10.31,39.84
+30,"Lindt Praline Chocolate 90% (120g) [ID:30]",Lindt,Praline,7540,63629.43,25.36,25455.25,10.15,40.01
+20,"Godiva Truffle Chocolate 70% (200g)",Godiva,Truffle,7439,63672.34,26.04,25448.82,10.41,39.97
+92,"Lindt Truffle Chocolate 60% (50g)",Lindt,Truffle,7479,63331.52,25.65,25446.72,10.31,40.18
+56,"Lindt Dark Chocolate 50% (120g)",Lindt,Dark,7490,63460.89,25.65,25446.68,10.29,40.10
+66,"Ferrero White Chocolate 80% (80g) [ID:66]",Ferrero,White,7349,63453.95,25.97,25443.07,10.41,40.10
+68,"Hershey Praline Chocolate 50% (80g)",Hershey,Praline,7448,63460.87,25.78,25441.73,10.33,40.09
+9,"Ferrero White Chocolate 50% (80g)",Ferrero,White,7499,63646.69,25.61,25434.64,10.24,39.96
+40,"Mars Dark Chocolate 60% (80g)",Mars,Dark,7435,63368.52,25.31,25414.18,10.15,40.11
+38,"Cadbury White Chocolate 50% (100g)",Cadbury,White,7392,63130.44,25.66,25410.24,10.33,40.25
+162,"Cadbury Dark Chocolate 60% (100g)",Cadbury,Dark,7469,63624.70,25.42,25410.03,10.15,39.94
+72,"Ferrero Truffle Chocolate 90% (100g)",Ferrero,Truffle,7462,63115.44,25.24,25405.36,10.16,40.25
+59,"Godiva Praline Chocolate 50% (80g)",Godiva,Praline,7495,63866.27,25.33,25403.87,10.08,39.78
+55,"Lindt Milk Chocolate 60% (100g) [ID:55]",Lindt,Milk,7479,63471.00,25.46,25401.93,10.19,40.02
+3,"Hershey Truffle Chocolate 70% (120g)",Hershey,Truffle,7356,63286.79,25.80,25400.34,10.35,40.14
+60,"Mars Milk Chocolate 70% (120g)",Mars,Milk,7426,63298.87,25.83,25394.38,10.36,40.12
+189,"Godiva Milk Chocolate 50% (100g)",Godiva,Milk,7473,63401.52,25.61,25386.94,10.25,40.04
+14,"Mars White Chocolate 60% (100g)",Mars,White,7389,63474.22,26.06,25368.26,10.41,39.97
+15,"Ferrero Dark Chocolate 50% (50g)",Ferrero,Dark,7315,63454.25,25.82,25357.24,10.32,39.96
+79,"Hershey White Chocolate 80% (50g)",Hershey,White,7330,63146.25,25.88,25352.83,10.39,40.15
+153,"Cadbury White Chocolate 70% (50g)",Cadbury,White,7462,63307.93,25.32,25351.26,10.14,40.04
+111,"Cadbury White Chocolate 80% (50g)",Cadbury,White,7515,63453.35,25.60,25349.02,10.23,39.95
+183,"Mars White Chocolate 50% (120g)",Mars,White,7468,63628.46,25.62,25347.86,10.20,39.84
+110,"Godiva White Chocolate 50% (80g)",Godiva,White,7470,63422.13,25.80,25329.80,10.31,39.94
+129,"Cadbury Truffle Chocolate 90% (80g) [ID:129]",Cadbury,Truffle,7503,63638.72,25.45,25327.39,10.13,39.80
+112,"Cadbury Dark Chocolate 50% (80g)",Cadbury,Dark,7469,63581.50,25.65,25319.50,10.21,39.82
+149,"Lindt Milk Chocolate 80% (80g)",Lindt,Milk,7470,63330.82,25.52,25305.99,10.20,39.96
+19,"Mars Dark Chocolate 70% (50g)",Mars,Dark,7403,63659.76,26.21,25287.44,10.41,39.72
+71,"Cadbury Praline Chocolate 70% (100g)",Cadbury,Praline,7406,62904.34,25.29,25282.87,10.17,40.19
+182,"Mars Praline Chocolate 60% (120g)",Mars,Praline,7438,63222.07,25.54,25279.91,10.21,39.99
+98,"Mars Truffle Chocolate 50% (200g)",Mars,Truffle,7451,63675.06,25.70,25273.93,10.20,39.69
+80,"Hershey Praline Chocolate 70% (200g)",Hershey,Praline,7343,63202.09,25.93,25271.49,10.37,39.99
+21,"Cadbury Dark Chocolate 50% (50g) [ID:21]",Cadbury,Dark,7653,63582.18,24.80,25269.32,9.86,39.74
+85,"Hershey Truffle Chocolate 80% (50g)",Hershey,Truffle,7564,63452.80,25.15,25267.01,10.01,39.82
+115,"Hershey Milk Chocolate 90% (50g)",Hershey,Milk,7316,63142.30,25.78,25262.84,10.32,40.01
+119,"Ferrero Truffle Chocolate 50% (100g)",Ferrero,Truffle,7470,63260.70,25.56,25261.13,10.21,39.93
+4,"Mars Milk Chocolate 50% (80g) [ID:4]",Mars,Milk,7450,63302.20,25.30,25237.09,10.09,39.87
+88,"Lindt White Chocolate 90% (100g)",Lindt,White,7335,62632.51,25.52,25219.65,10.28,40.27
+43,"Lindt Truffle Chocolate 90% (200g)",Lindt,Truffle,7352,62782.81,25.46,25211.49,10.22,40.16
+197,"Hershey Truffle Chocolate 90% (120g)",Hershey,Truffle,7354,62845.84,25.53,25199.76,10.24,40.10
+53,"Ferrero Milk Chocolate 60% (100g)",Ferrero,Milk,7513,62660.47,25.17,25189.98,10.12,40.20
+105,"Mars Milk Chocolate 80% (100g)",Mars,Milk,7392,63136.91,25.29,25188.52,10.09,39.90
+94,"Ferrero Dark Chocolate 50% (200g) [ID:94]",Ferrero,Dark,7464,62868.02,25.59,25186.48,10.25,40.06
+171,"Mars Dark Chocolate 50% (50g) [ID:171]",Mars,Dark,7520,63205.24,24.97,25169.34,9.94,39.82
+33,"Hershey White Chocolate 90% (120g)",Hershey,White,7466,62876.78,25.15,25166.28,10.07,40.02
+169,"Lindt Milk Chocolate 60% (80g)",Lindt,Milk,7408,63209.69,25.64,25159.57,10.21,39.80
+65,"Ferrero White Chocolate 80% (80g) [ID:65]",Ferrero,White,7292,62446.14,25.53,25099.21,10.26,40.19
+156,"Cadbury Dark Chocolate 60% (200g) [ID:156]",Cadbury,Dark,7387,62745.29,25.31,25095.94,10.12,40.00
+157,"Cadbury Dark Chocolate 80% (200g)",Cadbury,Dark,7382,62966.40,25.48,25095.71,10.16,39.86
+45,"Godiva Milk Chocolate 80% (50g) [ID:45]",Godiva,Milk,7428,62941.65,25.57,25094.75,10.19,39.87
+39,"Ferrero Truffle Chocolate 90% (50g)",Ferrero,Truffle,7518,62755.93,25.22,25088.82,10.08,39.98
+167,"Godiva Truffle Chocolate 80% (200g)",Godiva,Truffle,7471,62782.01,25.56,25075.29,10.21,39.94
+106,"Lindt Milk Chocolate 50% (50g)",Lindt,Milk,7322,62789.48,25.90,25064.89,10.34,39.92
+95,"Ferrero Praline Chocolate 50% (80g)",Ferrero,Praline,7397,62793.59,26.14,25059.66,10.43,39.91
+125,"Lindt Milk Chocolate 60% (50g)",Lindt,Milk,7389,62747.28,24.78,25050.38,9.89,39.92
+138,"Mars Milk Chocolate 80% (120g)",Mars,Milk,7269,62619.65,25.57,25042.41,10.23,39.99
+96,"Hershey White Chocolate 50% (100g)",Hershey,White,7445,62743.22,25.22,25030.00,10.06,39.89
+75,"Godiva Praline Chocolate 70% (200g)",Godiva,Praline,7341,62620.45,25.40,25029.23,10.15,39.97
+62,"Mars Truffle Chocolate 80% (120g)",Mars,Truffle,7352,62891.15,25.29,25028.69,10.06,39.80
+46,"Cadbury Dark Chocolate 50% (120g)",Cadbury,Dark,7301,62794.08,25.78,25016.63,10.27,39.84
+143,"Godiva White Chocolate 90% (50g)",Godiva,White,7375,62354.58,25.39,25010.19,10.18,40.11
+181,"Ferrero Praline Chocolate 50% (50g)",Ferrero,Praline,7362,62337.52,25.35,25007.41,10.17,40.12
+160,"Hershey Praline Chocolate 90% (100g)",Hershey,Praline,7294,62301.83,25.93,24993.59,10.40,40.12
+109,"Godiva Truffle Chocolate 50% (50g)",Godiva,Truffle,7342,62140.44,25.04,24991.76,10.07,40.22
+128,"Godiva White Chocolate 80% (50g)",Godiva,White,7330,62188.48,25.04,24986.66,10.06,40.18
+67,"Mars Praline Chocolate 80% (120g)",Mars,Praline,7377,62031.48,24.92,24982.96,10.04,40.27
+32,"Ferrero Praline Chocolate 70% (200g)",Ferrero,Praline,7385,62139.45,25.46,24976.06,10.23,40.19
+83,"Cadbury Truffle Chocolate 70% (200g)",Cadbury,Truffle,7311,62248.54,25.23,24970.13,10.12,40.11
+42,"Ferrero Praline Chocolate 50% (120g)",Ferrero,Praline,7382,62565.73,25.73,24968.24,10.27,39.91
+23,"Cadbury Dark Chocolate 70% (100g) [ID:23]",Cadbury,Dark,7429,62722.57,25.17,24968.14,10.02,39.81
+188,"Cadbury Praline Chocolate 50% (120g)",Cadbury,Praline,7276,62503.16,25.67,24962.11,10.25,39.94
+155,"Mars Dark Chocolate 80% (50g)",Mars,Dark,7327,62542.76,25.35,24958.75,10.12,39.91
+152,"Lindt Milk Chocolate 70% (200g) [ID:152]",Lindt,Milk,7384,62677.44,25.50,24949.66,10.15,39.81
+81,"Cadbury Truffle Chocolate 90% (100g)",Cadbury,Truffle,7363,62434.72,25.35,24936.60,10.12,39.94
+76,"Mars White Chocolate 60% (50g) [ID:76]",Mars,White,7434,62288.71,24.95,24935.41,9.99,40.03
+44,"Ferrero White Chocolate 50% (100g)",Ferrero,White,7267,61869.81,25.44,24935.40,10.25,40.30
+145,"Godiva White Chocolate 70% (50g)",Godiva,White,7382,62724.50,25.44,24921.59,10.11,39.73
+200,"Cadbury Milk Chocolate 50% (100g)",Cadbury,Milk,7265,62202.09,25.64,24910.75,10.27,40.05
+54,"Lindt Truffle Chocolate 80% (50g)",Lindt,Truffle,7351,62430.77,25.23,24908.94,10.07,39.90
+175,"Cadbury White Chocolate 70% (100g)",Cadbury,White,7367,62132.65,25.54,24892.17,10.23,40.06
+135,"Godiva White Chocolate 80% (200g)",Godiva,White,7371,62548.75,25.34,24884.75,10.08,39.78
+69,"Cadbury White Chocolate 90% (120g) [ID:69]",Cadbury,White,7373,62097.60,24.65,24872.71,9.87,40.05
+87,"Godiva Truffle Chocolate 60% (100g)",Godiva,Truffle,7319,61959.61,24.85,24851.43,9.97,40.11
+118,"Godiva Milk Chocolate 70% (120g)",Godiva,Milk,7328,62234.41,25.74,24841.39,10.27,39.92
+1,"Mars White Chocolate 80% (120g)",Mars,White,7321,61944.87,25.20,24839.49,10.11,40.10
+148,"Hershey White Chocolate 50% (200g)",Hershey,White,7310,62044.30,25.07,24816.09,10.03,40.00
+163,"Lindt White Chocolate 70% (200g)",Lindt,White,7358,61751.37,25.07,24755.67,10.05,40.09
+50,"Ferrero Praline Chocolate 60% (50g) [ID:50]",Ferrero,Praline,7306,62092.61,25.56,24754.10,10.19,39.87
+102,"Cadbury Dark Chocolate 50% (50g) [ID:102]",Cadbury,Dark,7338,62284.35,25.43,24753.26,10.11,39.74
+173,"Lindt Dark Chocolate 60% (50g)",Lindt,Dark,7237,61807.83,25.46,24713.72,10.18,39.98
+52,"Cadbury Dark Chocolate 90% (100g)",Cadbury,Dark,7253,61499.69,25.61,24704.99,10.29,40.17
+82,"Ferrero Praline Chocolate 60% (120g)",Ferrero,Praline,7222,61838.41,25.74,24702.35,10.28,39.95
+29,"Lindt Milk Chocolate 60% (100g) [ID:29]",Lindt,Milk,7343,61541.86,25.05,24670.22,10.04,40.09
+186,"Godiva Dark Chocolate 60% (50g)",Godiva,Dark,7229,61829.03,25.79,24653.55,10.29,39.87
+192,"Ferrero Milk Chocolate 50% (200g)",Ferrero,Milk,7159,61341.67,25.67,24653.02,10.32,40.19
+2,"Cadbury Dark Chocolate 70% (100g) [ID:2]",Cadbury,Dark,7314,61928.36,25.56,24615.07,10.16,39.75
+16,"Mars Dark Chocolate 90% (50g)",Mars,Dark,7388,61609.53,24.80,24605.11,9.91,39.94
+37,"Hershey Truffle Chocolate 60% (120g)",Hershey,Truffle,7223,61457.60,25.52,24600.97,10.22,40.03
+121,"Mars White Chocolate 60% (50g) [ID:121]",Mars,White,7203,61149.85,25.70,24594.10,10.34,40.22
+159,"Godiva Truffle Chocolate 70% (100g) [ID:159]",Godiva,Truffle,7292,61645.19,25.04,24580.19,9.98,39.87
+172,"Lindt Truffle Chocolate 80% (200g)",Lindt,Truffle,7376,61264.98,24.69,24546.56,9.89,40.07
+168,"Ferrero Truffle Chocolate 50% (80g)",Ferrero,Truffle,7236,61457.15,25.47,24544.12,10.17,39.94
+28,"Lindt Dark Chocolate 50% (200g)",Lindt,Dark,7130,61232.87,25.59,24510.32,10.24,40.03
+180,"Hershey Truffle Chocolate 80% (80g)",Hershey,Truffle,7204,61115.06,25.67,24501.43,10.29,40.09
+120,"Mars Milk Chocolate 90% (100g)",Mars,Milk,7248,61033.99,24.91,24474.64,9.99,40.10
+114,"Hershey Milk Chocolate 90% (80g)",Hershey,Milk,7206,60976.67,25.39,24471.27,10.19,40.13
+47,"Mars Truffle Chocolate 70% (200g)",Mars,Truffle,7199,61126.31,25.31,24439.08,10.12,39.98
+177,"Ferrero Praline Chocolate 50% (100g) [ID:177]",Ferrero,Praline,7225,61039.18,25.41,24433.96,10.17,40.03
+41,"Cadbury Milk Chocolate 70% (80g)",Cadbury,Milk,7211,60883.46,25.21,24423.53,10.11,40.12
+176,"Lindt Truffle Chocolate 90% (50g)",Lindt,Truffle,7321,61231.43,24.98,24394.70,9.95,39.84
+196,"Mars White Chocolate 60% (80g)",Mars,White,7212,60890.05,25.58,24391.67,10.25,40.06
+13,"Godiva White Chocolate 70% (120g)",Godiva,White,7281,61015.32,25.39,24364.75,10.14,39.93
+70,"Ferrero White Chocolate 90% (200g)",Ferrero,White,7422,61363.35,24.95,24364.55,9.91,39.71
+101,"Hershey Milk Chocolate 70% (100g)",Hershey,Milk,7179,60721.39,25.10,24342.91,10.06,40.09
+97,"Godiva Milk Chocolate 80% (50g) [ID:97]",Godiva,Milk,7231,61168.84,24.99,24295.03,9.92,39.72
+7,"Cadbury Praline Chocolate 70% (120g)",Cadbury,Praline,7240,60898.49,24.92,24281.26,9.94,39.87
+141,"Mars Dark Chocolate 90% (80g)",Mars,Dark,7093,60586.60,24.76,24239.37,9.91,40.01
+134,"Mars Praline Chocolate 70% (50g)",Mars,Praline,7224,61024.91,25.01,24239.00,9.93,39.72
+86,"Cadbury Truffle Chocolate 80% (120g)",Cadbury,Truffle,7190,60694.17,25.42,24218.64,10.14,39.90
+35,"Hershey White Chocolate 70% (200g)",Hershey,White,7142,60498.83,25.56,24199.03,10.22,40.00
+34,"Godiva White Chocolate 60% (100g)",Godiva,White,7087,59889.22,25.10,24046.68,10.08,40.15
+31,"Godiva White Chocolate 80% (80g)",Godiva,White,7145,60232.93,25.10,24029.47,10.01,39.89
+166,"Mars Milk Chocolate 90% (80g)",Mars,Milk,7100,60021.33,24.77,24013.35,9.91,40.01
+48,"Cadbury Praline Chocolate 90% (50g)",Cadbury,Praline,7121,59890.05,25.17,23973.94,10.08,40.03
+190,"Lindt Milk Chocolate 70% (200g) [ID:190]",Lindt,Milk,6925,59866.85,25.36,23906.88,10.13,39.93
+22,"Hershey Praline Chocolate 50% (200g)",Hershey,Praline,6997,59207.82,25.49,23734.31,10.22,40.09
+178,"Hershey Praline Chocolate 80% (200g)",Hershey,Praline,6960,58243.38,24.75,23316.88,9.91,40.03

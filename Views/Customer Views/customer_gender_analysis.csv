@@ -1,0 +1,3 @@
+customer_gender,total_orders,units_sold,total_revenue,avg_transaction_value,total_profits,avg_sale_profit
+Male,249524,748260,6360592.27,25.49,2544597.96,10.20
+Female,245607,736545,6254783.27,25.47,2503065.94,10.19

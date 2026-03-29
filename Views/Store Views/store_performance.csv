@@ -1,0 +1,101 @@
+store_id,store_name,store_country,store_city,units_sold,total_revenue,avg_transaction_value,total_profit,avg_sale_profit
+19,"Chocolate Store 19",Germany,Berlin,15272,130837.99,25.80,52499.73,10.35
+12,"Chocolate Store 12",France,Lyon,15243,131125.33,25.98,52446.27,10.39
+33,"Chocolate Store 33",Australia,Melbourne,15193,129651.15,25.73,52086.75,10.34
+100,"Chocolate Store 100",France,Marseille,15055,129809.19,25.74,51949.42,10.30
+97,"Chocolate Store 97",Canada,Toronto,15182,129451.17,25.53,51879.72,10.23
+49,"Chocolate Store 49",France,Paris,15181,129074.20,25.56,51725.89,10.24
+32,"Chocolate Store 32",UK,Manchester,15165,129414.85,25.57,51696.08,10.21
+50,"Chocolate Store 50",Canada,Montreal,15124,128844.99,25.74,51603.78,10.31
+98,"Chocolate Store 98",Australia,Sydney,15279,129002.96,25.68,51574.79,10.27
+63,"Chocolate Store 63",Australia,Melbourne,15136,128475.69,25.43,51437.03,10.18
+70,"Chocolate Store 70",Canada,Montreal,15117,128593.88,25.69,51419.66,10.27
+74,"Chocolate Store 74",USA,"Long Island",15164,127977.25,25.64,51273.98,10.27
+52,"Chocolate Store 52",France,Lyon,15037,128231.70,25.57,51251.96,10.22
+40,"Chocolate Store 40",Canada,Montreal,15017,128137.53,25.57,51248.72,10.23
+13,"Chocolate Store 13",France,Paris,15001,127573.53,25.40,51240.50,10.20
+31,"Chocolate Store 31",Australia,Melbourne,14970,127639.10,25.53,51207.53,10.24
+22,"Chocolate Store 22",USA,"Long Island",14841,127351.37,25.52,51195.60,10.26
+1,"Chocolate Store 1",Canada,Toronto,14969,127613.50,25.32,51143.17,10.15
+59,"Chocolate Store 59",Germany,Berlin,15031,127699.47,25.38,51134.14,10.16
+27,"Chocolate Store 27",Germany,Berlin,14944,127179.03,25.58,51067.98,10.27
+67,"Chocolate Store 67",UK,London,14869,127143.24,25.73,51040.85,10.33
+84,"Chocolate Store 84",France,Lyon,14911,127483.19,25.74,51036.29,10.30
+6,"Chocolate Store 6",Canada,Vancouver,14916,127650.05,25.96,50998.22,10.37
+61,"Chocolate Store 61",France,Paris,14866,127490.85,25.53,50931.33,10.20
+5,"Chocolate Store 5",USA,Buffalo,15157,127101.70,25.24,50906.72,10.11
+39,"Chocolate Store 39",UK,London,15060,127365.48,25.32,50897.51,10.12
+91,"Chocolate Store 91",UK,London,15050,127112.39,25.23,50882.89,10.10
+85,"Chocolate Store 85",USA,Buffalo,14876,127459.47,25.68,50848.54,10.25
+66,"Chocolate Store 66",USA,"Long Island",14947,127332.90,25.73,50830.94,10.27
+21,"Chocolate Store 21",USA,"New York",14837,126844.63,25.97,50810.86,10.40
+64,"Chocolate Store 64",Germany,Munich,15054,127331.53,25.42,50806.50,10.14
+43,"Chocolate Store 43",Germany,Berlin,14968,126675.74,25.38,50805.53,10.18
+34,"Chocolate Store 34",Canada,Vancouver,14982,127089.66,25.57,50780.08,10.22
+36,"Chocolate Store 36",Australia,Sydney,14935,126798.18,25.46,50772.81,10.20
+94,"Chocolate Store 94",Germany,Munich,14960,127252.46,25.43,50768.53,10.14
+14,"Chocolate Store 14",Australia,Sydney,14968,126939.76,25.24,50751.62,10.09
+93,"Chocolate Store 93",UK,London,14934,126722.08,25.34,50741.89,10.15
+9,"Chocolate Store 9",France,Paris,14911,126827.93,25.36,50735.21,10.15
+65,"Chocolate Store 65",Australia,Brisbane,14891,127116.74,25.67,50728.97,10.24
+71,"Chocolate Store 71",Canada,Toronto,14927,126756.67,25.38,50694.39,10.15
+96,"Chocolate Store 96",UK,Manchester,14864,126420.34,25.72,50646.80,10.30
+37,"Chocolate Store 37",Canada,Toronto,14851,126043.61,25.05,50644.96,10.07
+99,"Chocolate Store 99",Australia,Melbourne,14890,126159.64,25.36,50624.87,10.18
+26,"Chocolate Store 26",USA,"Long Island",14790,126814.64,25.95,50623.93,10.36
+47,"Chocolate Store 47",UK,London,14926,126383.56,25.59,50620.35,10.25
+17,"Chocolate Store 17",UK,London,14854,125995.66,25.49,50594.88,10.24
+30,"Chocolate Store 30",UK,Edinburgh,14862,126315.06,25.60,50585.63,10.25
+42,"Chocolate Store 42",USA,"Long Island",15030,126777.94,25.31,50530.25,10.09
+51,"Chocolate Store 51",Australia,Melbourne,14832,126359.27,25.78,50529.61,10.31
+62,"Chocolate Store 62",Canada,Vancouver,14912,126863.00,25.38,50526.93,10.11
+29,"Chocolate Store 29",Australia,Melbourne,14828,125900.68,25.63,50507.79,10.28
+72,"Chocolate Store 72",France,Lyon,14914,125927.70,25.38,50507.26,10.18
+89,"Chocolate Store 89",Canada,Toronto,14819,126287.78,25.20,50462.52,10.07
+20,"Chocolate Store 20",Germany,Hamburg,14707,125956.37,25.53,50455.42,10.23
+53,"Chocolate Store 53",USA,"New York",14819,126389.06,25.79,50433.36,10.29
+25,"Chocolate Store 25",USA,Buffalo,14787,126495.64,25.60,50429.75,10.20
+68,"Chocolate Store 68",UK,Manchester,14764,125743.86,25.61,50427.58,10.27
+3,"Chocolate Store 3",France,Paris,14797,126686.84,25.92,50400.97,10.31
+45,"Chocolate Store 45",Canada,Montreal,14764,125394.30,25.58,50391.82,10.28
+58,"Chocolate Store 58",USA,"Long Island",14744,125206.72,25.42,50375.59,10.23
+90,"Chocolate Store 90",France,Marseille,14688,125683.04,25.51,50374.54,10.22
+86,"Chocolate Store 86",Australia,Sydney,14876,125788.66,25.18,50368.18,10.08
+38,"Chocolate Store 38",USA,"Long Island",14828,125771.98,25.33,50342.53,10.14
+41,"Chocolate Store 41",Germany,Berlin,14715,126176.18,25.95,50326.04,10.35
+80,"Chocolate Store 80",Australia,Brisbane,14905,125732.96,25.18,50274.90,10.07
+92,"Chocolate Store 92",UK,Manchester,14624,125532.08,25.68,50273.91,10.28
+76,"Chocolate Store 76",Germany,Munich,14726,125735.42,25.82,50248.66,10.32
+35,"Chocolate Store 35",USA,Buffalo,14775,125509.42,25.27,50240.69,10.12
+73,"Chocolate Store 73",UK,London,14750,125267.81,25.48,50219.80,10.21
+82,"Chocolate Store 82",Australia,Sydney,14939,125332.19,25.01,50192.22,10.02
+95,"Chocolate Store 95",Canada,Montreal,14870,125557.48,25.56,50186.67,10.22
+10,"Chocolate Store 10",UK,Edinburgh,14765,125638.24,25.64,50140.33,10.23
+11,"Chocolate Store 11",USA,"New York",14684,124701.13,25.41,50109.50,10.21
+87,"Chocolate Store 87",Germany,Berlin,14799,125162.72,25.64,50106.82,10.26
+88,"Chocolate Store 88",USA,"Long Island",14790,124931.08,25.21,50095.21,10.11
+78,"Chocolate Store 78",UK,Manchester,14614,124680.07,25.51,50020.14,10.24
+44,"Chocolate Store 44",UK,Manchester,14707,124959.78,25.34,50006.08,10.14
+24,"Chocolate Store 24",France,Lyon,14637,124416.62,25.43,49940.35,10.21
+28,"Chocolate Store 28",Australia,Sydney,14857,125081.06,25.24,49817.15,10.05
+46,"Chocolate Store 46",Canada,Vancouver,14760,124547.77,25.06,49798.14,10.02
+56,"Chocolate Store 56",Germany,Munich,14674,125067.68,25.53,49758.21,10.16
+18,"Chocolate Store 18",Germany,Munich,14648,124430.51,25.52,49742.01,10.20
+69,"Chocolate Store 69",France,Paris,14590,123931.66,25.58,49669.65,10.25
+7,"Chocolate Store 7",France,Paris,14699,124605.56,25.14,49668.45,10.02
+57,"Chocolate Store 57",UK,London,14720,124320.66,25.64,49636.19,10.24
+55,"Chocolate Store 55",France,Marseille,14758,124059.93,25.22,49542.32,10.07
+16,"Chocolate Store 16",USA,"Long Island",14708,123629.73,25.10,49488.73,10.05
+75,"Chocolate Store 75",France,Marseille,14610,123357.96,25.13,49470.93,10.08
+83,"Chocolate Store 83",France,Paris,14581,124075.97,25.31,49452.15,10.09
+54,"Chocolate Store 54",Canada,Vancouver,14668,123704.02,25.40,49404.41,10.14
+2,"Chocolate Store 2",Canada,Vancouver,14620,123467.18,25.34,49390.66,10.14
+60,"Chocolate Store 60",Australia,Brisbane,14648,123648.69,25.22,49384.38,10.07
+23,"Chocolate Store 23",Canada,Toronto,14528,123713.78,25.57,49261.65,10.18
+81,"Chocolate Store 81",Canada,Toronto,14559,123348.53,25.50,49220.96,10.18
+8,"Chocolate Store 8",UK,Manchester,14464,121923.61,25.25,49076.67,10.17
+15,"Chocolate Store 15",Canada,Montreal,14580,122333.12,24.76,49017.29,9.92
+77,"Chocolate Store 77",UK,London,14558,122780.47,25.31,48934.08,10.09
+79,"Chocolate Store 79",USA,"New York",14457,122550.49,25.32,48906.43,10.10
+4,"Chocolate Store 4",UK,Manchester,14463,121945.46,25.11,48816.18,10.05
+48,"Chocolate Store 48",Canada,Vancouver,14269,121974.64,25.32,48568.04,10.08
