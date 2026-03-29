@@ -8,6 +8,21 @@ USE retailDB; -- Set as the default schema so further actions will affect THIS d
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- 									 ------------ TABLE CREATIONS ------------
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- DONE:
+# Initially set the table data types up to match the maximum data values in the table:
+	# Adjusted DEC datatypes in sales table to allow for large aggregate sums (DEC(12,2) perhaps, example: 1,234,567,899.55)
+	# Adjusted varchars across the board to accountfor potential INSERTS of larger size than current alloance
+    
+# Add CHECK constraint to 'customer_loyalty_member_status' to make sure user can only input 1 or 0
+# Add a trigger to 'customer_join_date' so when it set to 1 it inserts todays date
+# SET COLUMNS EQUAL TO NOT NULL SO INSERTS ARE EXPLICIT AND ALL COLUMNS NEED DATA FOR AN INSERT TO WORK
+# Clean the sales table
+# Add those two triggers to the 'sales' table
+# Need to make sure each entry has unique product_name per brand!!!
+# Add the VIEW: Product_Brand_Performance: GROUP BY product_brand and get total revenue, total sales, average sale amount
+
+
+
 
 -- Note that the table CREATES below have been updated as the project went on to reflect the changes needed to perfect the data base and
 -- DO NOT represent the insitial state of the tables when the data import was done. I have commented specifically what was changed below.
@@ -248,9 +263,9 @@ END //
 DELIMITER ;
 
 	/* NOTE:
-		• NEW refers to the incoming value from the UPDATE statement, while OLD refers to what is currently
+		• NEW vs OLD: NEW refers to the incoming value from the UPDATE statement, while OLD refers to what is currently
           in the database.
-		• BEGIN/END: This block is required whenever the trigger contains more than one logic line or an IF statement.
+		• BEGIN...END: This block is required whenever the trigger contains more than one logic line or an IF statement.
 	*/
     
     
@@ -347,8 +362,11 @@ ORDER BY
 CREATE OR REPLACE VIEW monthly_sales AS
 SELECT
     DATE_FORMAT(sale_date, '%Y-%m') AS `year_month`,
-    SUM(sale_revenue) AS total_revenue,
-    SUM(sale_profit) AS total_profit
+    SUM(sale_quantity) AS units_sold,
+    ROUND(SUM(sale_revenue), 2) AS total_revenue,
+    ROUND(AVG(sale_revenue), 2) AS avg_transaction_value,
+    ROUND(SUM(sale_profit), 2) AS total_profit,
+    ROUND(AVG(sale_profit), 2) AS avg_profits
 FROM sales
 GROUP BY `year_month`
 ORDER BY SUM(sale_profit) DESC;
@@ -358,8 +376,11 @@ ORDER BY SUM(sale_profit) DESC;
 CREATE OR REPLACE VIEW yearly_sales AS
 SELECT
     DATE_FORMAT(sale_date, '%Y') AS `year`,
-    SUM(sale_revenue) AS total_revenue,
-    SUM(sale_profit) AS total_profit
+    SUM(sale_quantity) AS units_sold,
+    ROUND(SUM(sale_revenue), 2) AS total_revenue,
+    ROUND(AVG(sale_revenue), 2) AS avg_transaction_value,
+    ROUND(SUM(sale_profit), 2) AS total_profit,
+    ROUND(AVG(sale_profit), 2) AS avg_profits
 FROM sales
 GROUP BY `year`
 ORDER BY SUM(sale_profit) DESC;
@@ -374,7 +395,10 @@ SELECT
     p.product_category AS product_category,
     SUM(s.sale_quantity) AS units_sold,
     SUM(s.sale_revenue) AS total_revenue,
-    SUM(s.sale_profit) AS total_profit
+    ROUND(AVG(sale_revenue), 2) AS avg_transaction_value,
+    SUM(s.sale_profit) AS total_profit,
+    ROUND(AVG(sale_profit), 2) AS avg_profits,
+    ROUND((SUM(s.sale_profit) / SUM(s.sale_revenue)) * 100, 2) AS profit_margin_percent
 FROM products p
 JOIN sales s ON p.product_id = s.sale_product_id
 GROUP BY 
@@ -392,7 +416,9 @@ SELECT
     COUNT(DISTINCT p.product_id) AS total_unique_products,
     SUM(s.sale_quantity) AS units_sold,
     SUM(s.sale_revenue) AS total_revenue,
+    ROUND(AVG(sale_revenue), 2) AS avg_transaction_value,
     SUM(s.sale_profit) AS total_profit,
+    ROUND(AVG(sale_profit), 2) AS avg_profits,
     -- Added a margin calculation for extra insight
     ROUND((SUM(s.sale_profit) / SUM(s.sale_revenue)) * 100, 2) AS profit_margin_percent
 FROM products p
@@ -407,10 +433,11 @@ SELECT
     p.product_category AS category,
     SUM(s.sale_quantity) AS units_sold,
     SUM(s.sale_revenue) AS total_revenue,
+    ROUND(SUM(s.sale_revenue) / SUM(s.sale_quantity), 2) AS avg_revenue_per_unit,
     SUM(s.sale_profit) AS total_profit,
     -- Average revenue and profit per unit to see which category is performing best:
-    ROUND(SUM(s.sale_revenue) / SUM(s.sale_quantity), 2) AS avg_revenue_per_unit,
-    ROUND(SUM(s.sale_profit) / SUM(s.sale_quantity), 2) AS avg_profit_per_unit
+    ROUND(SUM(s.sale_profit) / SUM(s.sale_quantity), 2) AS avg_profit_per_unit,
+    ROUND((SUM(s.sale_profit) / SUM(s.sale_revenue)) * 100, 2) AS profit_margin_percent
 FROM products p
 JOIN sales s ON p.product_id = s.sale_product_id
 GROUP BY p.product_category
@@ -424,7 +451,9 @@ SELECT
     c.customer_loyalty_member_status,
     COUNT(s.sale_id) AS total_orders,
     SUM(s.sale_revenue) AS total_revenue,
-    SUM(s.sale_profit) AS total_profit
+    AVG(s.sale_revenue) AS avg_transaction_value,
+    SUM(s.sale_profit) AS total_profit,
+    AVG(s.sale_profit) AS avg_sale_profit
 FROM customers c
 LEFT JOIN sales s ON c.customer_id = s.sale_customer_id
 GROUP BY c.customer_id
@@ -436,13 +465,30 @@ CREATE OR REPLACE VIEW loyalty_member_analysis AS
     SELECT
         c.customer_loyalty_member_status,
         COUNT(DISTINCT c.customer_id) AS num_customers,
+        SUM(s.sale_quantity) AS units_sold,
         SUM(s.sale_revenue) AS total_revenue,
         AVG(s.sale_revenue) AS avg_transaction_value,
         SUM(s.sale_profit) AS total_profits,
-        AVG(s.sale_profit) AS avg_sale_profit
+        ROUND(AVG(s.sale_profit), 2) AS avg_sale_profit
     FROM customers c
     JOIN sales s ON c.customer_id = s.sale_customer_id
     GROUP BY c.customer_loyalty_member_status;
+
+
+-- Customer Gender Value View:
+CREATE OR REPLACE VIEW customer_gender_analysis AS
+SELECT
+    c.customer_gender,
+    COUNT(s.sale_id) AS total_orders,
+    SUM(s.sale_quantity) AS units_sold,
+    SUM(s.sale_revenue) AS total_revenue,
+	ROUND(AVG(s.sale_revenue), 2) AS avg_transaction_value,
+	SUM(s.sale_profit) AS total_profits,
+	ROUND(AVG(s.sale_profit), 2) AS avg_sale_profit
+FROM customers c
+LEFT JOIN sales s ON c.customer_id = s.sale_customer_id
+GROUP BY c.customer_gender
+ORDER BY SUM(s.sale_profit) DESC; -- Show the most profitable customers first
 
 
 -- Store Performance View:
@@ -452,8 +498,11 @@ SELECT
     st.store_name,
     st.store_country,
     st.store_city,
+    SUM(s.sale_quantity) AS units_sold,
     SUM(s.sale_revenue) AS total_revenue,
-    SUM(s.sale_profit) AS total_profit
+    ROUND(AVG(s.sale_revenue), 2) AS avg_transaction_value,
+    SUM(s.sale_profit) AS total_profit,
+    ROUND(AVG(s.sale_profit), 2) AS avg_sale_profit
 FROM stores st
 JOIN sales s ON st.store_id = s.sale_store_id
 GROUP BY st.store_id, st.store_city, st.store_country
