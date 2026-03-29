@@ -248,9 +248,9 @@ END //
 DELIMITER ;
 
 	/* NOTE:
-		• NEW vs OLD: NEW refers to the incoming value from the UPDATE statement, while OLD refers to what is currently
+		• NEW refers to the incoming value from the UPDATE statement, while OLD refers to what is currently
           in the database.
-		• BEGIN...END: This block is required whenever the trigger contains more than one logic line or an IF statement.
+		• BEGIN/END: This block is required whenever the trigger contains more than one logic line or an IF statement.
 	*/
     
     
