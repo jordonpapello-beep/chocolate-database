@@ -1,7 +1,7 @@
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- SAFETY SETTINGS:
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- Safe Updates in case the user needs to perform an update: (DELETE FOR GITHUB)
+-- Safe Updates in case the user needs to perform an update:
 SET SQL_SAFE_UPDATES = 0;
 SET SQL_SAFE_UPDATES = 1;
 
@@ -9,10 +9,10 @@ SET SQL_SAFE_UPDATES = 1;
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- TABLE SELECTS:
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-SELECT * FROM sales;     -- Cleaned
-SELECT * FROM products;  -- Cleaned
-SELECT * FROM customers; -- Cleaned
-SELECT * FROM stores;    -- Cleaned
+SELECT * FROM sales;     
+SELECT * FROM products;  
+SELECT * FROM customers; 
+SELECT * FROM stores;    
 
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
