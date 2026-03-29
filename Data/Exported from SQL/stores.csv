@@ -1,0 +1,101 @@
+store_id,store_name,store_city,store_country,store_type
+1,"Chocolate Store 1",Toronto,Canada,Retail
+2,"Chocolate Store 2",Vancouver,Canada,Mall
+3,"Chocolate Store 3",Paris,France,Mall
+4,"Chocolate Store 4",Manchester,UK,Airport
+5,"Chocolate Store 5",Buffalo,USA,Online
+6,"Chocolate Store 6",Vancouver,Canada,Online
+7,"Chocolate Store 7",Paris,France,Mall
+8,"Chocolate Store 8",Manchester,UK,Mall
+9,"Chocolate Store 9",Paris,France,Online
+10,"Chocolate Store 10",Edinburgh,UK,Retail
+11,"Chocolate Store 11","New York",USA,Retail
+12,"Chocolate Store 12",Lyon,France,Mall
+13,"Chocolate Store 13",Paris,France,Retail
+14,"Chocolate Store 14",Sydney,Australia,Airport
+15,"Chocolate Store 15",Montreal,Canada,Airport
+16,"Chocolate Store 16","Long Island",USA,Mall
+17,"Chocolate Store 17",London,UK,Airport
+18,"Chocolate Store 18",Munich,Germany,Retail
+19,"Chocolate Store 19",Berlin,Germany,Airport
+20,"Chocolate Store 20",Hamburg,Germany,Retail
+21,"Chocolate Store 21","New York",USA,Mall
+22,"Chocolate Store 22","Long Island",USA,Retail
+23,"Chocolate Store 23",Toronto,Canada,Retail
+24,"Chocolate Store 24",Lyon,France,Online
+25,"Chocolate Store 25",Buffalo,USA,Airport
+26,"Chocolate Store 26","Long Island",USA,Online
+27,"Chocolate Store 27",Berlin,Germany,Airport
+28,"Chocolate Store 28",Sydney,Australia,Mall
+29,"Chocolate Store 29",Melbourne,Australia,Online
+30,"Chocolate Store 30",Edinburgh,UK,Airport
+31,"Chocolate Store 31",Melbourne,Australia,Retail
+32,"Chocolate Store 32",Manchester,UK,Mall
+33,"Chocolate Store 33",Melbourne,Australia,Retail
+34,"Chocolate Store 34",Vancouver,Canada,Mall
+35,"Chocolate Store 35",Buffalo,USA,Mall
+36,"Chocolate Store 36",Sydney,Australia,Mall
+37,"Chocolate Store 37",Toronto,Canada,Online
+38,"Chocolate Store 38","Long Island",USA,Mall
+39,"Chocolate Store 39",London,UK,Mall
+40,"Chocolate Store 40",Montreal,Canada,Airport
+41,"Chocolate Store 41",Berlin,Germany,Airport
+42,"Chocolate Store 42","Long Island",USA,Online
+43,"Chocolate Store 43",Berlin,Germany,Airport
+44,"Chocolate Store 44",Manchester,UK,Airport
+45,"Chocolate Store 45",Montreal,Canada,Online
+46,"Chocolate Store 46",Vancouver,Canada,Mall
+47,"Chocolate Store 47",London,UK,Mall
+48,"Chocolate Store 48",Vancouver,Canada,Airport
+49,"Chocolate Store 49",Paris,France,Mall
+50,"Chocolate Store 50",Montreal,Canada,Airport
+51,"Chocolate Store 51",Melbourne,Australia,Retail
+52,"Chocolate Store 52",Lyon,France,Retail
+53,"Chocolate Store 53","New York",USA,Retail
+54,"Chocolate Store 54",Vancouver,Canada,Online
+55,"Chocolate Store 55",Marseille,France,Retail
+56,"Chocolate Store 56",Munich,Germany,Online
+57,"Chocolate Store 57",London,UK,Airport
+58,"Chocolate Store 58","Long Island",USA,Airport
+59,"Chocolate Store 59",Berlin,Germany,Airport
+60,"Chocolate Store 60",Brisbane,Australia,Airport
+61,"Chocolate Store 61",Paris,France,Online
+62,"Chocolate Store 62",Vancouver,Canada,Airport
+63,"Chocolate Store 63",Melbourne,Australia,Retail
+64,"Chocolate Store 64",Munich,Germany,Airport
+65,"Chocolate Store 65",Brisbane,Australia,Retail
+66,"Chocolate Store 66","Long Island",USA,Online
+67,"Chocolate Store 67",London,UK,Online
+68,"Chocolate Store 68",Manchester,UK,Online
+69,"Chocolate Store 69",Paris,France,Retail
+70,"Chocolate Store 70",Montreal,Canada,Online
+71,"Chocolate Store 71",Toronto,Canada,Online
+72,"Chocolate Store 72",Lyon,France,Mall
+73,"Chocolate Store 73",London,UK,Online
+74,"Chocolate Store 74","Long Island",USA,Online
+75,"Chocolate Store 75",Marseille,France,Airport
+76,"Chocolate Store 76",Munich,Germany,Retail
+77,"Chocolate Store 77",London,UK,Airport
+78,"Chocolate Store 78",Manchester,UK,Airport
+79,"Chocolate Store 79","New York",USA,Mall
+80,"Chocolate Store 80",Brisbane,Australia,Online
+81,"Chocolate Store 81",Toronto,Canada,Airport
+82,"Chocolate Store 82",Sydney,Australia,Mall
+83,"Chocolate Store 83",Paris,France,Mall
+84,"Chocolate Store 84",Lyon,France,Airport
+85,"Chocolate Store 85",Buffalo,USA,Online
+86,"Chocolate Store 86",Sydney,Australia,Mall
+87,"Chocolate Store 87",Berlin,Germany,Airport
+88,"Chocolate Store 88","Long Island",USA,Retail
+89,"Chocolate Store 89",Toronto,Canada,Online
+90,"Chocolate Store 90",Marseille,France,Online
+91,"Chocolate Store 91",London,UK,Online
+92,"Chocolate Store 92",Manchester,UK,Airport
+93,"Chocolate Store 93",London,UK,Airport
+94,"Chocolate Store 94",Munich,Germany,Airport
+95,"Chocolate Store 95",Montreal,Canada,Mall
+96,"Chocolate Store 96",Manchester,UK,Mall
+97,"Chocolate Store 97",Toronto,Canada,Mall
+98,"Chocolate Store 98",Sydney,Australia,Online
+99,"Chocolate Store 99",Melbourne,Australia,Mall
+100,"Chocolate Store 100",Marseille,France,Airport
