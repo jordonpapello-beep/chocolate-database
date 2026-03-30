@@ -1,9 +1,9 @@
 # chocolate-database
-* This repository contains the complete database management system (DBSM) schema and automation logic for a high-volume retail environment (500k+ records). The project focuses on Database Normalization, Automated Financial Calculations, and Strict Data Integrity through the use of advanced SQL features.
+* This repository contains the complete database management system (DBMS) schema and automation logic for a high-volume retail environment (500k+ records). The project focuses on Database Normalization, Automated Financial Calculations, and Strict Data Integrity through the use of advanced SQL features.
 
 * All of the TABLES, VIEWS, and STORED PROCEDURES are available to view as CSV files within this repository. **Most of the data is limited to 1000 rows so as to keep the file size low (with the exception of the original imported data). Also note that the `sales` table had to be slpit into two parts because of the file size.** I believe this is long enough to get the general idea of the contents of the TABLES/VIEWS/PROCEDURES that would have exceeded this chosen LIMIT. The `sales` table has ~500,000 rows of data, and the `customers` table has ~50,000 rows of data.
 
-* **This projects files are split into two parts: `RetailDBSM.sql`, and `main.sql`.** The purpose of **`RetailDBSM.sql`** is to have a file where all Data Definition Language (DDL) and back-end structure for the DBSM is located: database/table creations, data import/cleaning, and definitions for triggers/views/stored procedures. The purpose of **`main.sql`** is to have a file strictly for user interaction with the DBSM, where all of the defined tools just described can be found and run. 
+* **This projects files are split into two parts: `RetailDBMS.sql`, and `main.sql`.** The purpose of **`RetailDBMS.sql`** is to have a file where all Data Definition Language (DDL) and back-end structure for the DBMS is located: database/table creations, data import/cleaning, and definitions for triggers/views/stored procedures. The purpose of **`main.sql`** is to have a file strictly for user interaction with the DBMS, where all of the defined tools just described can be found and run. 
   
 ---
 ### Project Order:
@@ -19,7 +19,7 @@ This is the order this project should be viewed in:
     *  `customers.csv`
     *  `stores.csv`
 * `SQL Files/`
-	* `RetailDBSM.sql`
+	* `RetailDBMS.sql`
 * `Data/Exported from SQL/` (Cleaned Data)
 	* `sales.csv`
 	* `products.csv`
@@ -41,7 +41,7 @@ This is the order this project should be viewed in:
 
 ---
 ### Project Process:
-* The following will be a brief project description, **to view the step-by-step process that I took for this project, please view `RetailDBSM.sql` as it is highly detailed, and structured/written in chronological order.**
+* The following will be a brief project description, **to view the step-by-step process that I took for this project, please view `RetailDBMS.sql` as it is highly detailed, and structured/written in chronological order.**
 
 **1.) Finding the Data:** The data used in this project can be found here: 
 
@@ -49,9 +49,9 @@ https://www.kaggle.com/datasets/ssssws/chocolate-sales-dataset-2023-2024
 
 This data was used because of it's size and relational table format.
 
-**2.) Breifly Cleaning the Data for Import:** I decided that the `calendar.csv` table was unnecessary as SQL has tools in place to determine the data stored there. Furthermore, the other tables were in good form, but needed to be cleaned slighty. The main problem was the format of the primary keys beginning with a character(s) and having leading zeros (e.g. 'store_id': S093, instead of the ideal 93). To fix this, I simply used the find and replace tool in Excel on all of the tables. After this, the data was ready for import via MySQL's import wizard tool (description of this in `RetailDBSM.sql`).
+**2.) Breifly Cleaning the Data for Import:** I decided that the `calendar.csv` table was unnecessary as SQL has tools in place to determine the data stored there. Furthermore, the other tables were in good form, but needed to be cleaned slighty. The main problem was the format of the primary keys beginning with a character(s) and having leading zeros (e.g. 'store_id': S093, instead of the ideal 93). To fix this, I simply used the find and replace tool in Excel on all of the tables. After this, the data was ready for import via MySQL's import wizard tool (description of this in `RetailDBMS.sql`).
 
-**3.) `RetailDBSM.sql`:** The rest of my thought processes concerning the flow of this projects creation/cleaning processes can be found on `RetailDBSM.sql`.
+**3.) `RetailDBMS.sql`:** The rest of my thought processes concerning the flow of this projects creation/cleaning processes can be found on `RetailDBMS.sql`.
 
 ---
 ### Project Insights:
@@ -61,7 +61,7 @@ This data was used because of it's size and relational table format.
 ##### Sales Table:
 **1.) `sales_summary`:** 
 
-This is the **CORE VIEW** of the entire DBSM as it **connects all tables in the database together per individual sales on the `sales` table through the three foreign keys associated with the `products`, `customers`, and `stores` tables!** Therefore, this VIEW shows ALL of the information associated with a sale that cannot be found on the `sales` table alone: all of the product data, customer data, and store data. Using this, you can not only find out the price data of what was bought and how much of it, but what the product specifically is, the gender and age of the customer who bought it, what store city and country they bought it from, and so on.
+This is the **CORE VIEW** of the entire DBMS as it **connects all tables in the database together per individual sales on the `sales` table through the three foreign keys associated with the `products`, `customers`, and `stores` tables!** Therefore, this VIEW shows ALL of the information associated with a sale that cannot be found on the `sales` table alone: all of the product data, customer data, and store data. Using this, you can not only find out the price data of what was bought and how much of it, but what the product specifically is, the gender and age of the customer who bought it, what store city and country they bought it from, and so on.
 
 **2 & 3.) `monthly_sales` & `yearly_sales`:**
 
