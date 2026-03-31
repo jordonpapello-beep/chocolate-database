@@ -57,8 +57,9 @@ This data was used because of it's size and relational table format.
 ### Project Insights:
 * Following the completion of this project, many conclusions about the data can be drawn that would be impossible to ascertain by just viewing the data tables alone. This section is dedicated to those conclusions, and will describe them  as they relate to specific VIEWS/STORED PROCEDURES that were cerated to answer specific business questions:
 
-#### VIEWS:
-##### Sales Table:
+VIEWS:
+---
+#### Sales Table:
 **1.) `sales_summary`:** 
 
 This is the **CORE VIEW** of the entire DBMS as it **connects all tables in the database together per individual sales on the `sales` table through the three foreign keys associated with the `products`, `customers`, and `stores` tables!** Therefore, this VIEW shows ALL of the information associated with a sale that cannot be found on the `sales` table alone: all of the product data, customer data, and store data. Using this, you can not only find out the price data of what was bought and how much of it, but what the product specifically is, the gender and age of the customer who bought it, what store city and country they bought it from, and so on.
@@ -68,7 +69,7 @@ This is the **CORE VIEW** of the entire DBMS as it **connects all tables in the 
 These views **aggregate the massive 500k+ row dataset into time-series snapshots.** They are designed to **identify growth patterns and seasonality.** By calculating total revenue, profit, and average transaction value and profit per month and year, these views answer critical business questions regarding **which periods are most profitable and how the business is scaling over time.**
 
 
-##### Products Table:
+#### Products Table:
 **1.) `product_performance`:**
 
 This view provides **a micro sales analysis of every item in the catalog.** It calculates the total units sold and profit margins for each unique product. **This allows the business to rank all products and identify products with high margins and high volume versus underperforming products** that may be taking up inventory space without contributing significantly to the bottom line.
@@ -77,7 +78,7 @@ This view provides **a micro sales analysis of every item in the catalog.** It c
 
 These views provide **a macro sales perspective by grouping data by brand and category.** They help in determining **which chocolate brands (e.g. Hershey vs. Cadbury) and categories (e.g., Dark vs. Milk) are the most profitable.** This is essential for informing procurement strategies and marketing focus. 
 
-##### Customers Table:
+#### Customers Table:
 **1.) `customer_lifetime_value`:**
 
 This view **identifies the most valuable customers by calculating their total historical spend and profit.** By ranking customers based on CLV, the business can implement high-value retention strategies and identify the characteristics of their most profitable patrons. 
@@ -90,7 +91,7 @@ This view specifically answers the question: **"Is our loyalty program working?"
 
 Tihs view specifically answers the question: **"Is there a difference in spending between male and female customers?"** By comparing them directly like this, **the business can determine if there is an expected even slpit in spending, or if one gender seems to spend more/less.** After this determination, the business can make moves to **change their advertisment strategy to try to cater more to either male/female customers.**
 
-##### Stores Table:
+#### Stores Table:
 **1.) `store_performance`:**
 
 By **aggregating sales by geography**, this view ranks physical locations based on profitability. It **answers which cities or countries are the strongest markets**, allowing for better-informed decisions regarding future **store expansions or resource allocation.**
@@ -100,8 +101,8 @@ By **aggregating sales by geography**, this view ranks physical locations based 
 This view provides an **in depth rank of all products per store based on amount of units sold**. This is useful when comparing the most profitable to least profitable stores in the `store_performance` view as **you can see how differently the stores sales vary from the most profitable to least profitable stores.** Furthermore, if you **ORDER this view further by the 'rank_in_store' column, you can see an ordered view of which products are performing best across ALL stores, and which ones are performing worse.**
 
 
-#### STORED PROCEDURES:
-
+STORED PROCEDURES:
+---
 **1.) `get_sales_by_date('2023-06-21', '2023-09-23')`:**
 
 **This procedure if a date filter for the core `sales_summary` VIEW.** Unlike a static view, it **accepts a date range as input**, enabling a manager to pull a comprehensive summary for a specific holiday season, a promotional weekend, or a fiscal quarter without writing a single line of new SQL code. In this specific example, we filter the `sales_summary` view to only show transactions from the summer of 2023. 
