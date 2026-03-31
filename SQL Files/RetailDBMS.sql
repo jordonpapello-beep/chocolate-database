@@ -8,6 +8,21 @@ USE retailDB; -- Set as the default schema so further actions will affect THIS d
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- 									 ------------ TABLE CREATIONS ------------
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- DONE:
+# Initially set the table data types up to match the maximum data values in the table:
+	# Adjusted DEC datatypes in sales table to allow for large aggregate sums (DEC(12,2) perhaps, example: 1,234,567,899.55)
+	# Adjusted varchars across the board to accountfor potential INSERTS of larger size than current alloance
+    
+# Add CHECK constraint to 'customer_loyalty_member_status' to make sure user can only input 1 or 0
+# Add a trigger to 'customer_join_date' so when it set to 1 it inserts todays date
+# SET COLUMNS EQUAL TO NOT NULL SO INSERTS ARE EXPLICIT AND ALL COLUMNS NEED DATA FOR AN INSERT TO WORK
+# Clean the sales table
+# Add those two triggers to the 'sales' table
+# Need to make sure each entry has unique product_name per brand!!!
+# Add the VIEW: Product_Brand_Performance: GROUP BY product_brand and get total revenue, total sales, average sale amount
+
+
+
 
 -- Note that the table CREATES below have been updated as the project went on to reflect the changes needed to perfect the data base and
 -- DO NOT represent the insitial state of the tables when the data import was done. I have commented specifically what was changed below.
@@ -436,9 +451,9 @@ SELECT
     c.customer_loyalty_member_status,
     COUNT(s.sale_id) AS total_orders,
     SUM(s.sale_revenue) AS total_revenue,
-    AVG(s.sale_revenue) AS avg_transaction_value,
+    ROUND(AVG(s.sale_revenue), 2) AS avg_transaction_value,
     SUM(s.sale_profit) AS total_profit,
-    AVG(s.sale_profit) AS avg_sale_profit
+    ROUND(AVG(s.sale_profit), 2) AS avg_sale_profit
 FROM customers c
 LEFT JOIN sales s ON c.customer_id = s.sale_customer_id
 GROUP BY c.customer_id
@@ -452,7 +467,7 @@ CREATE OR REPLACE VIEW loyalty_member_analysis AS
         COUNT(DISTINCT c.customer_id) AS num_customers,
         SUM(s.sale_quantity) AS units_sold,
         SUM(s.sale_revenue) AS total_revenue,
-        AVG(s.sale_revenue) AS avg_transaction_value,
+        ROUND(AVG(s.sale_revenue), 2) AS avg_transaction_value,
         SUM(s.sale_profit) AS total_profits,
         ROUND(AVG(s.sale_profit), 2) AS avg_sale_profit
     FROM customers c
