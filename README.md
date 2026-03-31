@@ -45,7 +45,7 @@ This is the order this project should be viewed in:
 
 **1.) Finding the Data:** The data used in this project can be found here: 
 
-https://www.kaggle.com/datasets/ssssws/chocolate-sales-dataset-2023-2024
+[Chocolate Database on Kaggle](https://www.kaggle.com/datasets/ssssws/chocolate-sales-dataset-2023-2024)
 
 This data was used because of it's size and relational table format.
 
@@ -118,24 +118,3 @@ STORED PROCEDURES:
 **4.) `get_ranked_products_per_store(3)`**
 
 **This view is a filter of the `ranked_products_per_store` VIEW.** This procedure **uses Window Functions to rank products locally within a specific store.** It answers the highly localized question: **"What is the #1 selling item in the London store versus the Paris store?"** This is vital for managing regional inventory variations.
-
-
-
-
-
-
-
-
-
-### DONE:
-Initially set the table data types up to match the maximum data values in the table:
-	 Adjusted DEC datatypes in sales table to allow for large aggregate sums (DEC(12,2) perhaps, example: 1,234,567,899.55)
-	 Adjusted varchars across the board to accountfor potential INSERTS of larger size than current alloance
-    
-Add CHECK constraint to 'customer_loyalty_member_status' to make sure user can only input 1 or 0
-Add a trigger to 'customer_join_date' so when it set to 1 it inserts todays date
-SET COLUMNS EQUAL TO NOT NULL SO INSERTS ARE EXPLICIT AND ALL COLUMNS NEED DATA FOR AN INSERT TO WORK
-Clean the sales table
-Add those two triggers to the 'sales' table
-Need to make sure each entry has unique product_name per brand!!!
-Add the VIEW: Product_Brand_Performance: GROUP BY product_brand and get total revenue, total sales, average sale amount
